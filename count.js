@@ -3,7 +3,7 @@ const second = 1000,
       hour = minute * 60,
       day = hour * 24;
 
-let countDown = new Date('Sep 26, 2018 13:20:00').getTime(),
+let countDown = new Date('June 13, 2020 00:00:00').getTime(), // Month day, year HH:MM:SS
     x = setInterval(function() {
 
       let now = new Date().getTime(),
@@ -17,7 +17,7 @@ let countDown = new Date('Sep 26, 2018 13:20:00').getTime(),
       //do something later when date is reached
       if (distance <= 0) {
         //clearInterval(x);
-        document.getElementById('on').innerText= "ONGOING!!";
+        document.getElementById('changeHeader').innerText= "ONGOING!!";
         document.getElementById('days').innerHTML = "0";
         document.getElementById('hours').innerHTML = "0";
         document.getElementById('minutes').innerHTML = "0";
