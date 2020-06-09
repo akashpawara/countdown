@@ -1,4 +1,4 @@
-# [College Fest Landing Page](https://akashpawara.github.io/countdown/) 
+# [Countdown Example](https://akashpawara.github.io/countdown/) 
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discordapp.com/users/228556195689005059) [![Profile](https://img.shields.io/badge/Linkedin-akashpawara-blue)](https://www.linkedin.com/in/akashpawara)
  
@@ -7,9 +7,9 @@
 To Change date & time of the countdown,
 GO TO count.js => Line 6
 Change Date and time according to the commented format
-'''
+```
         let countDown = new Date('June 13, 2020 00:00:00').getTime(), // Month day, year HH:MM:SS
-'''
+```
 
 To check out live demo, [Click here](https://akashpawara.github.io/countdown/)
 
