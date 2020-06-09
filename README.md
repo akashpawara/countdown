@@ -4,12 +4,12 @@
  
 ![Product Gif](trimmedCountdown.gif) 
 
-To Change date & time of the countdown,
-GO TO count.js => Line 6
-Change Date and time according to the commented format
+To Change date & time of the countdown,  
+GO TO count.js => Line 6   
 ```
         let countDown = new Date('June 13, 2020 00:00:00').getTime(), // Month day, year HH:MM:SS
 ```
+Change Date and time according to the commented format  
 
 To check out live demo, [Click here](https://akashpawara.github.io/countdown/)
 
@@ -24,6 +24,7 @@ You can also [check out](https://github.com/akashpawara/college-fest-landing-pag
 * [Social Media](#social-media)
 
 ## Quick start
+
 
 - Clone the repo: `git clone https://github.com/akashpawara/countdown.git`.
 
